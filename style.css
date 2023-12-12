@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url(fonts/gothampro.ttf); /* Путь к файлу со шрифтом */
+  src: url(fonts/gothampro_bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    background: #98e9ff;
+    color: rgb(0, 5, 104);
+  }
+
+h1 {
+  font-size: 300%
+}
+
+main {
+  margin-left: 10%;
+  font-size: 150%;
+}
+
+main hr{
+  margin-left: -2%;
+  width: 470px;;
+  color: rgb(0, 5, 104);
+  border-color: rgb(0, 5, 104);
+  border: 2px solid rgb(0, 5, 104);
+}
+
+.divs {
+  display:inline-block;
+}
+.divs1 {
+  display:inline-block;
+  margin-left: 40px;
+}
+
+.tab {
+  margin-left: -3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.butt 
+{
+  width: 470;
+}
+
+

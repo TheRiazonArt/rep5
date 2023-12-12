@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Задание №3</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <main>
+        <body>
+            <h1>Делители</h1>
+            <form action="3.php" method="POST">
+                <p>Введите число: <input type="number" name="n" /></p>
+                <p>Действие: 
+                    <select id="act" name="act" >
+                        <option value="0">Четные делители</option>
+                        <option value="1">Нечетные делители</option>
+                        <option value="2">Простые делители</option>
+                        <option value="3">Составные делители</option>
+                    </select>
+                </p>
+                <input type="submit" value="Отправить">
+            </form>
+        </body>
+    </main>
+</html>
